@@ -9,9 +9,7 @@ html, body {
   padding: 0;
   overflow: hidden; /* important for Locomotive */
 }
-#main {
-  overflow: hidden;
-}
+
 #main h1{
     
     opacity: 1;
@@ -28,4 +26,17 @@ html, body {
 
 #page2 h1{
     color: #1f1f1f;
+}
+@media (max-width: 768px) {
+  html, body {
+    overflow: auto !important;
+    height: auto !important;
+  }
+
+  #main {
+    overflow: visible !important;
+  }
+}
+#main {
+  min-height: 100vh;
 }
