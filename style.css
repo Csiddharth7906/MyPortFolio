@@ -1,0 +1,31 @@
+*{
+    cursor: none;
+
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* important for Locomotive */
+}
+#main {
+  overflow: hidden;
+}
+#main h1{
+    
+    opacity: 1;
+}
+#page2{
+    background: #111111;
+    font-size: 4.5vw;
+   
+    text-align: center ;
+    font-weight: 400;
+    font-family: PP woodland;
+     line-height: 4.8vw;
+}
+
+#page2 h1{
+    color: #1f1f1f;
+}
